@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.hw4.ClockView
+        android:id="@+id/ClockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:circleColor="@color/pink"
+        app:circleStrokeWidth="20"
+        app:hourHandColor="@color/green"
+        app:minuteHandColor="@color/blue"
+        app:numeralSpacing="100"
+        app:numeralsFontSize="25"
+        app:secondHandWidth="5"
+        app:otherHandsWidth="10"
+        app:numeralsFontWidth="10"
+        app:secondHandColor="@color/orange"
+        />
+
+</FrameLayout>

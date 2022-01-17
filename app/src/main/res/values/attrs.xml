@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="circleColor" format="color" />
+        <attr name="secondHandColor" format="color" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="hourHandColor" format="color" />
+        <attr name="circleStrokeWidth" format="float" />
+        <attr name="secondHandWidth" format="float" />
+        <attr name="otherHandsWidth" format="float" />
+        <attr name="numeralSpacing" format="integer" />
+        <attr name="numeralsFontSize" format="integer" />
+        <attr name="numeralsFontWidth" format="float" />
+    </declare-styleable>
+
+    <attr name="clockFieldStyle" format="reference"/>
+</resources>
